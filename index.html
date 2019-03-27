@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Board Game</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+  </head>
+  <body>
+    <h2 class="headline">
+      Board Game
+    </h2>
+    <div id="score">
+    </div>
+    <div class="container">
+      <div class="buttons">
+        <button class="button" onclick="changeSelectedGame(3, 'easy')">Easy (3 X 3)</button>
+        <button class="button" onclick="changeSelectedGame(4, 'medium')">Medium (4 X 4)</button>
+        <button class="button" onclick="changeSelectedGame(6, 'hard')">Hard (6 X 6)</button>
+      </div>
+      <table id="board">
+
+      </table>
+    </div>
+    <script src="./index.js"> </script>
+  </body>
+</html>

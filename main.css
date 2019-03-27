@@ -1,0 +1,40 @@
+.headline {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.button {
+  margin: 15px 0;
+}
+
+#board {
+  margin-left: 30px;
+}
+
+#board table, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: lightgray;
+  height: 60px;
+  width: 60px;
+}
+
+#score {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
