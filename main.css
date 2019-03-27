@@ -16,6 +16,12 @@
 
 .button {
   margin: 15px 0;
+  background: rgb(92, 185, 247);
+  border-width: 2px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 5px;
 }
 
 #board {

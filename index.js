@@ -86,7 +86,7 @@ class BoardGame {
   
     setTimeout(() => {
       this.doGreen(i, j);
-    }, 100);
+    }, 0);
   }
 
   doGreen (i, j) {
