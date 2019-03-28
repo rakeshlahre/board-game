@@ -6,7 +6,6 @@ class BoardGame {
     this.lastx = 0;
     this.lasty = 0;
     this.score = 0;
-    this.changeSelectedGame = this.changeSelectedGame.bind(this);
     this.runGame = this.runGame.bind(this);
     this.doGreen = this.doGreen.bind(this);
     this.updateScore = this.updateScore.bind(this);
