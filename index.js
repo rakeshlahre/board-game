@@ -17,6 +17,10 @@ class BoardGame {
     this.type = null;
   }
 
+  restartTheGame () {
+    
+  }
+
   updateScore(e) {
     if (this.isLocked) return;
     this.isLocked = true;
@@ -119,3 +123,14 @@ window.changeSelectedGame = (n, type) => {
 
   this.updateScore = game.updateScore;
 };
+
+window.restartTheGame = () => {
+  let id = setTimeout(() => {}, 0);
+
+  while(id--) {
+    clearInterval(id);
+  }
+
+  document.getElementById("board").innerHTML = "";
+  document.getElementById("score").innerHTML = "";
+}

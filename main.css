@@ -44,3 +44,8 @@ td {
   margin-bottom: 15px;
   text-align: center;
 }
+
+.restart {
+  display: flex;
+  justify-content: center;
+}
