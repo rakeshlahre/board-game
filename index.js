@@ -81,6 +81,7 @@ class BoardGame {
     if (this.timer === 0) {
       alert("Game Over");
       this.timer = 120;
+      this.score = 0;
       this.runGame();
       return;
     }
